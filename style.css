@@ -1,0 +1,54 @@
+/* 1. Page styling and background color */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e8f0fe; /* Background color for the entire webpage */
+    color: #333333;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 2. Main title styling */
+h1 {
+    color: #1a73e8;
+    margin-bottom: 10px;
+}
+
+/* 3. Description paragraph styling */
+p.description {
+    font-size: 16px;
+    color: #555555;
+    margin-bottom: 25px;
+}
+
+/* 4. Important div container with background image and centered text */
+.important-box {
+    /* Background image with a dark linear gradient overlay for readable text */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), 
+                      url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* Sizing and alignment */
+    width: 80%;
+    max-width: 600px;
+    padding: 40px 20px;
+    border-radius: 10px;
+    text-align: center; /* Centers all content inside the div */
+    color: #ffffff; /* White text for strong contrast against the background image */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.important-box h2 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.important-box p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
